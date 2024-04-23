@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>S3CURE Login</title>
+        <link rel="stylesheet" type="text/css" href="login.css">
+    </head>
+    <body>
+        <div id="containData">
+            <div id="containForm">
+                <div id="containFormHead">
+                    <h2 id="formHead"> S3CURE Registration and Login </h2>
+                </div>
+
+                <div id="containFormData">
+                    <div id="containInnerFormData">
+                        <input type="text" id="full_name" placeholder="Name">
+                        <input type="email" id="email" placeholder="Email">
+                        <input type="password" id="password" placeholder="Password">
+
+                        <div id="containButton">
+                            <button onclick="login()">Login</button>
+                            <button onclick="register()">Register</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+    <script src="login.js"></script>
+
+</html>

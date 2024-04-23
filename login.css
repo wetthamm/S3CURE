@@ -1,0 +1,136 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+#containData {
+    width: 30%;
+    height: 70%;
+}
+
+#containForm {
+    width: 100%;
+    height: 100%;
+
+    background-color: #008000;
+    box-shadow: 0 0 50px -20px #000;
+    border-radius: 2%;
+
+    overflow: hidden;
+}
+
+#containFormHead {
+    width: 100%;
+    height: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+
+    padding: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+    border-bottom: 1px solid transparent;
+    border-image: #008000;
+    background: #000;
+}
+
+#formHead {
+    display: inline-block;
+    font-size: 15px;
+    font-family: Monaco;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+
+    background: #fff;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+
+#containFormData {
+    width: 100%;
+    height: 90%;
+
+    float: left;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 30px;
+}
+
+#containInnerFormData {
+    width: 75%;
+    height: 100%;
+
+    float: left;
+
+}
+
+input {
+    width: 100%;
+    height: 40px;
+
+    padding-left: 10px;
+    margin-bottom: 20px;
+
+    background: #000;
+    font-family: Monaco;
+    font-weight: 500;
+    color: #fff;
+    font-size: 12px;
+
+    border-bottom: 2px solid transparent;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    border-image: #008000;
+}
+
+#containButton {
+    width: 100%;
+    height: 10%;
+
+    background-image: linear-gradient(110.1deg, rgb(34, 126, 34) 2.9%, rgb(168, 251, 60) 90.3%);
+    color: #fff;
+
+    float: left;
+
+    margin-top: 5px;
+}
+
+#containButton button {
+    width: 50%;
+    height: 100%;
+    float: left;
+
+    background: transparent;
+    color: inherit;
+
+    font-family: Monaco;
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 12px;
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
